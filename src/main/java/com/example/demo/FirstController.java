@@ -25,5 +25,10 @@ public class FirstController {
         return "home";
     }
 
+    @GetMapping("form3")
+    public String form3(){
+        return "home";
+    }
+
 }
 
