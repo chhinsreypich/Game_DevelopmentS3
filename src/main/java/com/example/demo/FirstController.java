@@ -15,7 +15,7 @@ public class FirstController {
     ///  then  ctrl + k and comment "filename fix ( anything we want to say or show)"
     ///  and then start push it like first commit
     ///  and remember to click on "Commit and Push"
-    ///  if we have any error there, we still click on "Commit and Push anyway"
+    ///  if we have any error there, we still click on "Commit anyway and Push"
     @GetMapping("/")
     public String first(){
        return "home";
