@@ -12,7 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class FirstController {
 
     ///  if i want to make a change the in code
-    ///  then  ctrl + k and comment "filename fix " and then start push it like first commit
+    ///  then  ctrl + k and comment "filename fix ( anything we want to say or show)"
+    ///  and then start push it like first commit
+    ///  and remember to click on "Commit and Push"
+    ///  if we have any error there, we still click on "Commit and Push anyway"
     @GetMapping("/")
     public String first(){
        return "home";
